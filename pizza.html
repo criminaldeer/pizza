@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="pizza.css">
+    <meta name="viewport" content="width=device-width">
+    <script src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="pizza.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="menu">Home</a>
+            <a href="#" class="menu">Contacts</a>
+            <a href="#" class="menu">Menu</a>
+        </nav>
+    </header>
+    <div id="content">
+        <section id="cover" data-type="background" data-speed="10">
+            <img src="pics/your pizza.png" alt="it's your pizza" class="relative-img"/>
+            <a href="#" class="button-link">View Menu</a>
+        </section>
+        <div>
+            <hr>
+            <span class="section-title">Our history</span>
+            <p class="subtitle">Pizza Masters</p>
+            <img src="pics/man.jpg" alt="pizza master" class="inner-img"/>
+            <p class="description">Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, 
+                чтобы добавить свой контент и настроить шрифт. Текстовый блок можно перетащить в любое место на странице. 
+                Расскажите здесь посетителям сайта о себе подробнее, например, как вам пришла в голову идея вашего бизнеса.</p>
+        </div>
+        <section id="menu-block" data-type="background" data-speed="10">
+            <div class="square">
+                <p>Заказ пиццы</p>
+                <a href="#">Смотреть меню</a>
+            </div>
+            <div id="bottom" class="square">
+                <p>В пиццерии</p>
+                <a href="#">Смотреть меню</a>
+            </div>
+        </section>
+        <div>
+            <hr>
+            <span class="section-title tablet" style="margin-left:37%">Party and events</span>
+            <p class="subtitle">Make your guests happy</p>
+            <p class="description">Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, 
+                    чтобы добавить свой контент и настроить шрифт. Текстовый блок можно перетащить в любое место на странице. 
+                    Расскажите здесь посетителям сайта о себе подробнее, например, как вам пришла в голову идея вашего бизнеса.</p>
+            <a href="#" class="contact-link">Contact us</a>
+        </div>
+        <section id="slider" data-type="background" data-speed="10">
+<!--<div id="slidewrap">
+                <div id="slideshow"></div>
+            </div>-->
+            
+            <div id="slideshow">
+                <img src="pics/pizzaMeat.jpg" alt="meat pizza" class="section"/>
+                <img src="pics/moto.jpg" alt="moto"  class="section"/>
+                <img src="pics/pizzaCook.jpg" alt="cooking pizza" class="section"/>
+                <img src="pics/pizzaBox.jpg" alt="pizza in a box" class="section"/>
+                <img src="pics/pizzaDishes.jpg" alt="pizza on a dish" class="section"/>
+            </div>
+        </section>
+        <div>
+            <hr>
+            <span class="section-title address-tablet" style="margin-left:33%">Address and working hours</span>
+            <p class="subtitle">come and take your pizza!</p>
+            <div class="contacts-block clearfix">
+                <ul class="info-block">
+                    <span class="ul-title clearfix">Contact us</span>
+                    <li>Privet Street, 4, 4</li>
+                    <li>15784, USA</li>
+                    <li>info.site@com.ua</li>
+                </ul>
+                <ul class="info-block">
+                    <span class="ul-title">Working hours</span>
+                    <li>Monday - Friday 07:00 - 22:00</li>
+                    <li>Saturday 09:00 - 22:00</li>
+                    <li>Sunday 08:00 - 23:00</li>
+                </ul>
+            </div>
+            <div class="clearfix">
+                <a href="#" class="contact-link">Show map</a><br>
+                <img src="pics/arrowDown.png" alt="up" id="return-to-top"/>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social">
+            <a href="#"><img src="pics/facebook.png" alt="facebook" class="social-icons"/></a>
+            <a href="#"><img src="pics/twitter.png" alt="twitter" class="social-icons"/></a>
+            <a href="#"><img src="pics/flickr.png" alt="flickr" class="social-icons"/></a>
+            <a href="#"><img src="pics/instagram.png" alt="instagram" class="social-icons"/></a><br>
+            <small>All rights reserved ©</small>
+        </div>
+        <div class="subscription">
+            <span class="subscription-title">Join us!</span><br>
+            <input type="email" name="email" placeholder="Your Email" size="25" class="email-field"/>
+            <input type="submit" name="subscribe" value="Subscribe" class="subscribe-button"/>
+        </div>
+    </footer>
+</body>
+</html>
